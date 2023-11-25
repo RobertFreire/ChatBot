@@ -1,0 +1,42 @@
+.text-content{
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    h1{
+        color: rgb(24, 24, 24);
+    }
+
+    p{
+        color: gray;
+    }
+
+}
+
+.actions{
+    padding: 20px 0px;
+    display: flex;
+    gap: 20px;
+
+    button{
+        color: grey;
+        width: 160px;
+        height: 35px;
+        border: none;
+        position: relative;
+        background-color: initial;
+        cursor: pointer;
+
+    }
+
+    .clicked::after {
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: 0;
+        background: #1907ae;;
+        width: 100%;
+        height: 5px;
+    }
+}
