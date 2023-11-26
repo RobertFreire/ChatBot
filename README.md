@@ -1,8 +1,21 @@
-# React + Vite
+# ChatBot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- This project is a chatbot web application using the ChatGpt API, making it possible to create several chatbots and chat with them.
+- With the project, you can develop greater skills with MongoDB, React and JavaScript.
+ 
+## Dependencies
+- NodeJs ^10.1.0
+- React ^18.2.0
 
-Currently, two official plugins are available:
+## How to run:
+To run the project locally you need to install all Dependencies: 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```npm install```
+
+And start the server: 
+
+```npm run dev```
+
+## Developer
+
+Robert Freire - [@RobertFreire](https://github.com/RobertFreire)
