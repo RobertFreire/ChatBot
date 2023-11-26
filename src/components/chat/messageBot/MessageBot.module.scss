@@ -1,0 +1,22 @@
+.bot-content{
+    display: flex;
+    padding: 1vw 2vw;
+    flex-direction: column;
+
+    h4{
+        padding: 0px 10px;
+    }
+
+    .message-content{
+        display: flex;
+        background: rgb(236, 235, 235);
+        border-radius: 10px;
+        padding: 0px 20px;
+        align-items: center;
+        max-width: 60%;
+        color: black;
+
+    }
+
+   
+}
