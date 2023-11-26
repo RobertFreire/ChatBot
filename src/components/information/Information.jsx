@@ -25,7 +25,7 @@ const Information = () => {
 
         const formData = new FormData();
         formData.append('name', nameRef.current.value);
-        formData.append('behaviorInstructions', promptRef.current.value);
+        formData.append('instructions', promptRef.current.value);
         formData.append('version', versionRef.current.value);
         formData.append('file', fileRef.current.files[0]);
 
@@ -42,6 +42,9 @@ const Information = () => {
             console.error(error);
         }
 
+        event.target.reset();
+
+        fileRef.current.value = '';
     };
 
     useEffect(() => {
